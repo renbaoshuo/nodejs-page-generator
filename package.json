@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-page-generator",
+  "version": "0.0.1",
+  "description": "A NodeJS Page Generator",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renbaoshuo/NodeJS-Page-Generator.git"
+  },
+  "author": {
+    "name": "Ren Baoshuo",
+    "email": "i@baoshuo.ren",
+    "url": "https://baoshuo.ren"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renbaoshuo/NodeJS-Page-Generator/issues"
+  },
+  "homepage": "https://github.com/renbaoshuo/NodeJS-Page-Generator#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "markdown-it": "^12.0.4",
+    "parse-md": "^2.0.4",
+    "walkdir": "^0.4.1"
+  }
+}
